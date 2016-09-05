@@ -1,0 +1,87 @@
+lig = tint( colortext , 40%)
+
+.div
+  padding 1px
+.calendar
+  font-family Arial
+  width 500px
+  display flex
+  background white
+  .block-r
+    width 240px
+    height 240px
+    margin auto
+  .block-l
+    width 50%
+    .top
+      height 120px
+      margin 5px
+      .textblock
+        padding 1px
+        width 100%
+        background colortext
+        height 65%
+        p
+          width 90%
+          margin-left 5%
+          font-size .8em
+          color white
+      .text
+        display flex
+        color colortext
+        .big
+          font-size 2.2em
+        .undr
+          width 80px
+          height 25px
+          text-align center
+          border-bottom 2px solid colortext
+          margin-left 18px
+          padding-left 30px
+          padding-right 30px
+      hr
+        margin 0
+        border 1px solid colortext
+    .bottom
+      padding 1px
+      .cont
+        background colortext
+        width 96.5%
+        height 120px
+        margin 5px
+        display flex
+      .number
+        background colortext
+        margin-left 2%
+        margin-top 2%
+        color lig
+        .tr
+          padding-left 20px
+          padding-right 20px
+          background lig
+          font-size 1.07em
+          color white
+        .n
+          color white//lig
+          font-size 4em
+          text-align center
+      table
+        margin-top 2%
+        table-layout fixed
+        width 60%
+        background colortext
+        border-collapse collapse
+        font-size 1em
+        color white
+        .ttop
+          background lig
+        td
+          text-align center
+
+
+@media screen and (max-width: 500px) , (min-width:750px) and (max-width: 950px)
+  .calendar
+    width 250px
+    flex-direction column
+    .block-l
+      width 100%

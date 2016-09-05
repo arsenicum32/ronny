@@ -1,0 +1,533 @@
+
+<html><head><title>site</title><meta name="viewport" content="initial-scale=1, maximum-scale=1"/><link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css"/><style>.hid {
+  display: none;
+}
+body {
+  margin: 0;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+.section {
+  width: 100vw;
+  overflow-x: hidden;
+}
+.in {
+  width: 90%;
+  margin-left: 5%;
+}
+</style><script src="https://code.jquery.com/jquery-2.2.4.min.js"></script></head><body><style>.header {
+  width: 100vw;
+}
+.header .top {
+  width: 100vw;
+  height: 120px;
+}
+.header .bottom {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+.header .bottom .logo {
+  margin: 0;
+  margin-top: 20px;
+  width: 200px;
+  height: 60px;
+}
+.header .bottom .label {
+  text-align: center;
+}
+.header .bottom .label .p {
+  color: #951a1d;
+  margin: 0;
+  font-size: 0.7em;
+}
+.header .bottom .label h1 {
+  font-family: Arial-Black;
+  color: #f6ce45;
+  margin: 0;
+}
+.header .img {
+  height: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.header .logo {
+  color: #951a1d;
+  margin: 40px;
+  margin-left: 5%;
+}
+.header .logo h1 {
+  font-family: Arial-Black;
+  font-size: 3.4em;
+  margin: 0;
+}
+.header .logo p {
+  position: relative;
+  top: -12px;
+  margin: 0;
+  font-size: 0.9em;
+  width: 260px;
+  text-align: center;
+}
+.header .mobilemenu {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  background: #951a1d;
+  z-index: 100;
+}
+.header .mobilemenu .item {
+  color: #fff;
+  text-decoration: none;
+  line-height: 50px;
+  font-weight: lighter;
+  font-family: Arial;
+  text-align: center;
+  padding-bottom: 1px solid #fff;
+  padding-top: 1px solid #fff;
+}
+.header .menu {
+  height: 50px;
+  background: #951a1d;
+  display: flex;
+  justify-content: space-around;
+}
+.header .menu .hamb {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.header .menu .hmenu {
+  line-height: 50px;
+  position: absolute;
+  right: 15px;
+}
+.header .menu .login {
+  display: flex;
+}
+.header .menu .login img {
+  height: 25px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.header .menu .item {
+  color: #fff;
+  text-decoration: none;
+  line-height: 50px;
+  font-weight: lighter;
+  font-family: Arial;
+}
+@media screen and (min-width: 600px) {
+  .hmenu {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .bgimage {
+    display: none;
+  }
+  .shide {
+    display: none;
+  }
+  .login img,
+  .login span {
+    display: none;
+  }
+  .hmenu {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+  }
+}
+@media screen and (max-width: 650px) {
+  .rows {
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 20px;
+  }
+  .rows .logo {
+    max-width: 200px;
+    position: relative;
+    left: calc(50% - 100px);
+  }
+}
+</style><script src="js/hamb.js"></script><div class="header"><div class="top"><div class="logo"><h1>ENGLISH</h1><p>Nothing is impossible with FESS</p></div><img src="/img/Head_a.png" class="img bgimage"/></div><div class="menu"><div class="hamb"><a href="#" class="shide item">Main</a><a href="#" class="shide item">Greetings</a><a href="#" class="shide item">Videos</a><a href="#" class="shide item">Events</a><a href="#" class="shide item">Culture</a><a href="#" class="shide item">Books</a><a href="#" class="shide item">Lectures</a><a href="#" class="shide item">Skills</a><a href="#" class="shide item">Press</a><a href="#" class="login item"><img src="/img/log-in.png"/><span>Log in</span></a><a id="hamb" href="#" class="hmenu">menu</a></div></div><div id="mobile" class="mobilemenu"><a href="#" class="item">Main</a><a href="#" class="item">Greetings</a><a href="#" class="item">Videos</a><a href="#" class="item">Events</a><a href="#" class="item">Culture</a><a href="#" class="item">Books</a><a href="#" class="item">Lectures</a><a href="#" class="item">Skills</a><a href="#" class="item">Press</a></div><div class="bottom rows"><img src="/img/fesn_eng.png" class="c-4 logo"/><div class="label"><h1>25th <br>ANNIVERSARY</h1><div class="p">click to know more</div></div><img src="/img/logo-2.png" class="c-4 logo"/></div></div><div class="section"></div><style>.first {
+  background: #951a1d;
+}
+.one {
+  display: flex;
+  justify-content: space-between;
+  background: #951a1d;
+  width: 90%;
+  margin-left: 5%;
+}
+.one .picture {
+  margin: auto;
+  margin-top: 20px;
+  margin-right: 0;
+}
+.one .picture img {
+  height: 240px;
+  background: #fff;
+}
+.one .video {
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+}
+.one .video .str {
+  position: relative;
+  top: 100px;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 10px;
+}
+.one .video .bottom {
+  position: relative;
+  left: -4px;
+  width: 240px;
+  height: 20px;
+  background: #fff;
+  margin: auto;
+  margin-bottom: 10px;
+  color: #951a1d;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media screen and (max-width: 750px) {
+  .one {
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .one .picture,
+  .one .video {
+    margin: auto;
+    margin-top: 10px;
+  }
+}
+</style><!--.col-xs-12.col-sm-8.col-md-6.col-lg-4--><div class="section first"><div class="one"><div class="video"><svg id="Layer_1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve" class="str l"><style type="text/css">.st0{fill:#FFFFFF;}
+.st1{fill:#FFFFFF;stroke:#951a1d;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.st2{fill:#FFFFFF;stroke:#FFFFFF;stroke-linejoin:round;stroke-miterlimit:10;}</style><rect x="-1" y="-0.9" width="32.5" height="32.8" class="st0"></rect><polygon points="20.7,6.3 10,15.6 20.7,25" class="st1"></polygon><polygon points="23.6,6 12.5,15.6 23.6,25.3" class="st2"></polygon></svg><div class="frame"><iframe width="320" height="240" src="https://www.youtube.com/embed/3Qqf3qSVnUg" frameborder="0" allowfullscreen="allowfullscreen"></iframe><div class="bottom">example text</div></div><svg id="Layer_1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve" class="str r"><style type="text/css">.st0{fill:#FFFFFF;}
+.st1{fill:#FFFFFF;stroke:#951a1d;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.st2{fill:#FFFFFF;stroke:#FFFFFF;stroke-linejoin:round;stroke-miterlimit:10;}</style><rect x="-1" y="-0.9" width="32.5" height="32.8" class="st0"></rect><polygon points="10,6.3 20.7,15.6 10,25 " class="st1"></polygon><polygon points="7.5,6 18.6,15.6 7.5,25.3 " class="st2"></polygon></svg></div><div class="picture"><style>.div {
+  padding: 1px;
+}
+.calendar {
+  font-family: Arial;
+  width: 500px;
+  display: flex;
+  background: #fff;
+}
+.calendar .block-r {
+  width: 240px;
+  height: 240px;
+  margin: auto;
+}
+.calendar .block-l {
+  width: 50%;
+}
+.calendar .block-l .top {
+  height: 120px;
+  margin: 5px;
+}
+.calendar .block-l .top .textblock {
+  padding: 1px;
+  width: 100%;
+  background: #951a1d;
+  height: 65%;
+}
+.calendar .block-l .top .textblock p {
+  width: 90%;
+  margin-left: 5%;
+  font-size: 0.8em;
+  color: #fff;
+}
+.calendar .block-l .top .text {
+  display: flex;
+  color: #951a1d;
+}
+.calendar .block-l .top .text .big {
+  font-size: 2.2em;
+}
+.calendar .block-l .top .text .undr {
+  width: 80px;
+  height: 25px;
+  text-align: center;
+  border-bottom: 2px solid #951a1d;
+  margin-left: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.calendar .block-l .top hr {
+  margin: 0;
+  border: 1px solid #951a1d;
+}
+.calendar .block-l .bottom {
+  padding: 1px;
+}
+.calendar .block-l .bottom .cont {
+  background: #951a1d;
+  width: 96.5%;
+  height: 120px;
+  margin: 5px;
+  display: flex;
+}
+.calendar .block-l .bottom .number {
+  background: #951a1d;
+  margin-left: 2%;
+  margin-top: 2%;
+  color: #bf7577;
+}
+.calendar .block-l .bottom .number .tr {
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #bf7577;
+  font-size: 1.07em;
+  color: #fff;
+}
+.calendar .block-l .bottom .number .n {
+  color: #fff;
+  font-size: 4em;
+  text-align: center;
+}
+.calendar .block-l .bottom table {
+  margin-top: 2%;
+  table-layout: fixed;
+  width: 60%;
+  background: #951a1d;
+  border-collapse: collapse;
+  font-size: 1em;
+  color: #fff;
+}
+.calendar .block-l .bottom table .ttop {
+  background: #bf7577;
+}
+.calendar .block-l .bottom table td {
+  text-align: center;
+}
+@media screen and (max-width: 500px) , (min-width:750px) and (max-width: 950px) {
+  .calendar {
+    width: 250px;
+    flex-direction: column;
+  }
+  .calendar .block-l {
+    width: 100%;
+  }
+}
+</style><div class="calendar"><div class="block-l"><div class="top"><hr/><div class="text"><span class="big"><b>2016</b></span><div class="undr">4th of July</div></div><div class="textblock"><p>what a hell whis verstka russian verstka maza faka</p></div></div><div class="bottom"><div class="cont"><div class="number"><div class="tr">JULE</div><div class="n">07</div></div><table><tr class="ttop"><td>S</td><td>M</td><td>T</td><td>W</td><td>T</td><td>F</td><td>S</td></tr><tr><td>0</td><td>10</td><td>10</td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>0</td><td>10</td><td>10</td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>0</td><td>10</td><td>10</td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>0</td><td>10</td><td>10</td><td>1</td><td>2</td><td>3</td><td>4</td></tr></table></div></div></div><img src="/img/calendar.jpg" class="block-r"/></div><!--img(src='/public/imgcalendar.png')--></div></div></div><style>.two {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+.two .right {
+  margin-top: 20px;
+}
+.two .right img {
+  max-width: 800px;
+  min-width: 300px;
+  width: auto;
+}
+.two .left {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.two .left h2 {
+  font-family: Arial Black;
+  margin: 0;
+}
+.two .left .b {
+  font-size: 1.9em;
+}
+.two .left .lab {
+  width: 240px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 920px) {
+  .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+  }
+}
+</style><div class="section"><div class="two"><div class="left"><h2 class="s">Ready to test</h2><h2 class="b">YOUSELF?</h2><img src="/img/3.jpg" class="lab"/><img src="/img/4.jpg" class="lab"/></div><div class="right"><style>.greetings {
+  max-width: 800px;
+  border-spacing: 10px;
+}
+.greetings .body {
+  display: flex;
+}
+.greetings .body .img {
+  width: 200px;
+  height: 200px;
+  background: url("http://placehold.it/200x200") no-repeat center center;
+  background-size: cover;
+}
+.greetings .body p {
+  width: 400px;
+  margin: 10px;
+  height: 180px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.greetings .top {
+  display: flex;
+  height: 80px;
+  font-size: 20px;
+  color: #951a1d;
+}
+.greetings .top .cel {
+  line-height: 80px;
+}
+.greetings .top .l {
+  margin-left: 5px;
+  flex-grow: 2;
+}
+.greetings .top .line {
+  position: relative;
+  top: 40px;
+  border-top: 2px solid #951a1d;
+}
+</style><div class="greetings"><div class="top"><div class="cel"><span>GREETINGS</span></div><div class="cel l"><div class="line"></div></div></div><div class="body"><div class="img"></div><p><b>Lorem</b> ipsum dolor sit amet, consectetur adipiscing elit. Nam at turpis vitae magna dignissim eleifend vitae vel purus. Pellentesque venenatis velit nisi. In consectetur sem sit amet ligula viverra suscipit. Cras egestas, dui et interdum suscipit, ligula lorem pretium tellus, eu maximus magna ante in est. Nam gravida porttitor ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultrices tempor iaculis. Nam metus eros, congue ullamcorper elementum luctus, auctor quis ex. Vivamus sagittis sapien metus, quis sodales velit commodo ac. Fusce in ornare nibh. Sed laoreet nulla at nulla porttitor iaculis. Vivamus ut dignissim arcu. Ut scelerisque tellus dolor, eu varius leo elementum sed. Morbi vitae cursus eros, id consectetur mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam feugiat ligula arcu, id finibus diam elementum et. Cras ac viverra lectus. Integer eu finibus ex. Ut ac lacinia diam, id egestas massa. Nulla lectus diam, tristique at luctus ut, egestas vitae libero. Nunc sit amet diam rhoncus, commodo nibh a, luctus tellus. Vestibulum pharetra tellus ac lacus dignissim pulvinar. Nulla vitae lectus vitae ipsum vestibulum elementum vel nec elit. Vivamus ex purus, fringilla at nisl et, tincidunt pharetra ligula. Vivamus eros mi, maximus in condimentum in, tristique et lorem. Proin feugiat molestie sem, eu egestas ipsum imperdiet id. Donec vel nulla vestibulum, viverra leo ut, aliquet neque. In lobortis egestas sem et vulputate. Nam vel risus id orci viverra venenatis ut eget odio. Sed accumsan tristique nibh, vel lacinia risus malesuada ut. Nam tincidunt eu dui eget elementum. Curabitur ultrices metus velit, ut bibendum nunc iaculis id. Aliquam tristique sodales nisl viverra vestibulum. Suspendisse finibus fermentum pellentesque. Sed commodo libero nec risus venenatis ultrices. Praesent feugiat volutpat quam, quis laoreet est vulputate at. Mauris porta quis mauris eu condimentum. Pellentesque a ligula tellus. Maecenas sed tristique turpis.</p></div></div><!--img(src='/public/imgrightw.png')--></div></div></div><style>.three {
+  padding-top: 10px;
+}
+.three h2 {
+  font-family: Arial Black;
+  margin-left: 5%;
+}
+.three hr {
+  margin-top: 0;
+  border-top: 3px solid #951a1d;
+  width: 90%;
+}
+</style><div class="section three"><h2>FESS language levels and certificates</h2><hr/></div><div class="section four"><object type="image/svg+xml" data="/img/tablica-01.svg" style="width:90%;margin-left:5%;margin-bottom: 10px"></object><!--object(src='/public/imgtablica-01.svg', style='width:90%;margin-left:5%;margin-bottom: 10px')--></div><style>.five {
+  background: #0c3046;
+}
+.five .normal {
+  display: flex;
+  justify-content: space-around;
+  background: #0c3046;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+.five .normal .el {
+  color: #fff;
+  display: flex;
+  margin: 10px;
+  width: 180px;
+}
+.five .normal .el .pic {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 5px;
+}
+.five .normal .el .txt {
+  line-height: 50px;
+  margin-left: 10px;
+}
+@media screen and (min-width: 800px) and (max-width: 1240px) {
+  .normal {
+    width: 700px;
+    margin: auto;
+  }
+}
+</style><div class="section five"><div class="normal"><div class="el"><img src="/img/VIDEOS.png" class="pic"/><div class="txt">VIDEOS</div></div><div class="el"><img src="/img/CULTURE.png" class="pic"/><div class="txt">CULTURE</div></div><div class="el"><img src="/img/EVENTS.png" class="pic"/><div class="txt">EVENTS</div></div><div class="el"><img src="/img/LECTURES.png" class="pic"/><div class="txt">LECTURES</div></div><div class="el"><img src="/img/BOOKS.png" class="pic"/><div class="txt">BOOKS</div></div><div class="el"><img src="/img/SKILLS.png" class="pic"/><div class="txt">SKILLS</div></div></div></div><style>.six .block {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+.six .block .cont {
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+}
+.six .block .cont .men:not(:last-child) {
+  border-right: 2px solid #eee;
+}
+.six .block .cont .men {
+  width: 200px;
+  height: 250px;
+  margin: 0;
+  text-align: center;
+  color: #808080;
+}
+.six .block .cont .men .name {
+  margin-top: 30px;
+}
+.six .block .cont .men .ava {
+  margin-top: 10px;
+  width: 80px;
+  border-radius: 50%;
+}
+.six .block .cont .men .txt {
+  margin-top: 5px;
+  font-size: 0.7em;
+}
+.six .block .str {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #951a1d;
+  margin: auto;
+}
+.six hr {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-top: 4px solid #951a1d;
+}
+</style><div class="section six"><hr/><div class="block"><svg id="Layer_1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve" class="str l"><style type="text/css">.st0{fill:#951a1d;}
+.st1{fill:#FFFFFF;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.st2{fill:#951a1d;stroke:#951a1d;stroke-linejoin:round;stroke-miterlimit:10;}</style><rect x="-1" y="-0.9" width="32.5" height="32.8" class="st0"></rect><polygon points="20.7,6.3 10,15.6 20.7,25" class="st1"></polygon><polygon points="23.6,6 12.5,15.6 23.6,25.3" class="st2"></polygon></svg><div id="cont" class="cont"></div><svg id="Layer_1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve" class="str r"><style type="text/css">.st0{fill:#951a1d;}
+.st1{fill:#FFFFFF;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.st2{fill:#951a1d;stroke:#951a1d;stroke-linejoin:round;stroke-miterlimit:10;}</style><rect x="-1" y="-0.9" width="32.5" height="32.8" class="st0"></rect><polygon points="10,6.3 20.7,15.6 10,25 " class="st1"></polygon><polygon points="7.5,6 18.6,15.6 7.5,25.3 " class="st2"></polygon></svg></div><script src="js/men.js"></script></div><style>.seven {
+  display: flex;
+  flex-direction: column;
+  background: #951a1d;
+}
+.seven h2 {
+  width: 100%;
+  background: #742730;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 0;
+}
+.seven .normal {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  padding: 10px;
+}
+.seven .normal .el {
+  background: #fff;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 5px;
+}
+</style><div class="section seven"><h2>PRESS</h2><div class="normal"><div class="el"></div><div class="el"></div><div class="el"></div><div class="el"></div><div class="el"></div><div class="el"></div><div class="el"></div><div class="el"></div><div class="el"></div><div class="el"></div></div></div><style>.footer {
+  overflow: hidden;
+  width: 100vw;
+  height: 250px;
+  background: url("/img/footer.jpg") no-repeat center center;
+}
+</style><div id="par" class="section footer"><script src="/public/jspar.js"></script></div></body></html>

@@ -1,0 +1,113 @@
+.header
+  width 100vw
+  .top
+    width 100vw
+    height 120px
+  .bottom
+    width 100vw
+    display flex
+    justify-content space-around
+    .logo
+      margin 0
+      margin-top 20px
+      width 200px
+      height 60px
+    .label
+      text-align center
+      .p
+        color colortext
+        margin 0
+        font-size .7em
+      h1
+        font-family Arial-Black
+        color #f6ce45
+        margin 0
+  .img
+    height 200px
+    position absolute
+    top 0
+    right 0
+    z-index -1
+  .logo
+    color colortext
+    margin 40px
+    margin-left 5%
+    h1
+      font-family Arial-Black
+      font-size 3.4em
+      margin 0
+    p
+      position relative
+      top -12px
+      margin 0
+      font-size .9em
+      width 260px
+      text-align center
+  .mobilemenu
+    display flex
+    flex-direction column
+    width 100vw
+    background colortext
+    z-index 100
+    .item
+      color white
+      text-decoration none
+      line-height menuh
+      font-weight lighter
+      font-family Arial
+      text-align center
+      padding-bottom 1px solid white
+      padding-top 1px solid white
+  .menu
+    height menuh
+    background colortext
+    display flex
+    justify-content space-around
+    .hamb
+      display flex
+      justify-content space-around
+      width 100%
+    .hmenu
+      line-height menuh
+      position absolute
+      right 15px
+    .login
+      display flex
+      img
+        height 25px
+        margin-top 10px
+        margin-right 10px
+    .item
+      color white
+      text-decoration none
+      line-height menuh
+      font-weight lighter
+      font-family Arial
+
+@media screen and (min-width: 600px)
+  .hmenu
+    display none
+@media screen and (max-width: 600px)
+  .bgimage
+    display none
+  .shide
+    display none
+  .login
+    img
+    span
+      display none
+  .hmenu
+    display block
+    text-decoration none
+    color white
+    font-family Arial
+
+@media screen and (max-width: 650px)
+  .rows
+    flex-direction column
+    justify-content space-around
+    padding-bottom 20px
+    .logo
+      max-width 200px
+      position relative
+      left calc(50% - 100px)

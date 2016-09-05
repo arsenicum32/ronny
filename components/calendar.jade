@@ -1,0 +1,38 @@
+style
+  :stylus
+    @import "../public/main.styl"
+    @import "../css/calendar.styl"
+.calendar
+  .block-l
+    .top
+      hr
+      .text
+        span.big
+          b 2016
+        .undr 4th of July
+      .textblock
+        p what a hell whis verstka russian verstka maza faka
+    .bottom
+      .cont
+        .number
+          .tr JULE
+          .n 07
+        table
+          tr.ttop
+            td S
+            td M
+            td T
+            td W
+            td T
+            td F
+            td S
+          - each n in [0,1,2,3]
+            tr
+              td 0
+              td 10
+              td 10
+              td 1
+              td 2
+              td 3
+              td 4
+  img.block-r(src='/img/calendar.jpg')

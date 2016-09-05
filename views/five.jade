@@ -1,0 +1,10 @@
+style
+  :stylus
+    @import "../public/main.styl"
+    @import "../css/five.styl"
+.section.five
+  .normal
+    - each n in ['VIDEOS','CULTURE','EVENTS','LECTURES','BOOKS','SKILLS']
+      .el
+        img.pic(src='/img/#{n}.png')
+        .txt=n

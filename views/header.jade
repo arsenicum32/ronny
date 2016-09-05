@@ -1,0 +1,30 @@
+style
+  :stylus
+    @import "../public/main.styl"
+    @import "../css/header.styl"
+
+script(src='js/hamb.js')
+.header
+  .top
+    .logo
+      h1 ENGLISH
+      p Nothing is impossible with FESS
+    img.img.bgimage(src="/img/Head_a.png")
+  .menu
+    .hamb
+      - each item in ['Main','Greetings','Videos','Events','Culture','Books','Lectures','Skills','Press']
+        a.shide.item(href='#')=item
+      a.login.item(href='#')
+       img(src='/img/log-in.png')
+       span Log in
+      a.hmenu#hamb(href='#') menu
+   .mobilemenu#mobile
+     - each item in ['Main','Greetings','Videos','Events','Culture','Books','Lectures','Skills','Press']
+       a.item(href='#')=item
+   .bottom.rows
+     img.c-4.logo(src='/img/fesn_eng.png')
+     .label
+       h1 25th <br>ANNIVERSARY
+       .p click to know more
+     img.c-4.logo(src='/img/logo-2.png')
+.section
